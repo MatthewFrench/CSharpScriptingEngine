@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Matthew French</Authors>
+    <PackageProjectUrl>https://github.com/MatthewFrench/CSharpScriptingEngine</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MatthewFrench/CSharpScriptingEngine</RepositoryUrl>
+    <PackageTags>CSharpScriptingEngine, C#, Scripting, Engine, Better, Than, Lua</PackageTags>
+    <PackageId>MatthewFrench.CSharpScriptingEngine</PackageId>
+    <Description>Allows loading C# scripts on runtime and executing them.</Description>
   </PropertyGroup>
 
   <ItemGroup>
